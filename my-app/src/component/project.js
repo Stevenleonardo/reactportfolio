@@ -199,6 +199,24 @@ render() {
                         </div>
                     </div>
                 </div>
+
+                <div id="todolist" className="modal-card">
+                    <div className="visual">
+                        <img src={todo} alt=""/>
+                    </div>
+                    <div className="modal-info">
+                        <h2>To-Do List</h2>
+                        <div className="modal-description">
+                            <ul>
+                                <li>
+                                    A to-do list to keep track of goals.
+                                </li>
+                                <li>
+                                    Developed with HTML5, CSS3, Bootstrap,
+                                    Webpack, and ReactJS.
+                                </li>
+                            </ul>
+                        </div>
                         <div className="modal-bottom">
                             <a href="./todoList/index.html" target="_blank">
                                 <h3>View live demo</h3>
