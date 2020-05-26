@@ -3,9 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Navbar from "./component/navbar.jsx";
+import Footer from "./component/footer.jsx";
+import 'bootstrap/dist/css/bootstrap.css';
+import "./styles/index.scss";
 
 ReactDOM.render(
   <React.StrictMode>
+   <Navbar />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
