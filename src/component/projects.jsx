@@ -1,5 +1,5 @@
 import React from "react";
-import Vmarine from "../img/Vmarine.jpg";
+import homepage from "../img/homepage.png";
 import aguaDeLuz from "../img/aguaDeLuz.png";
 import todo from "../img/todolist.png";
 import PropTypes from "prop-types";
@@ -24,7 +24,7 @@ export default class Projects extends React.Component {
 								}>
 								<div className="overlay">
 									<div className="text">
-										<h2>VMarine</h2>
+										<h2>The HUB</h2>
 									</div>
 									<div>
 										<button
@@ -110,22 +110,23 @@ export default class Projects extends React.Component {
 
 				{/*hidden modals*/}
 				<div id="gallery-card">
-					<div id="vmarine" className="modal-card">
+					<div id="hub" className="modal-card">
 						<div className="visual">
-							<img src={Vmarine} alt=""/>
+							<img src={homepage} alt=""/>
 						</div>
 						<div className="modal-info">
-							<h2>Vmarine</h2>
+							<h2>The Hub</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
-										Prototype marine web-application to
-										provide information about progress of
-										services and prices.
+										Prototype planner web-application to
+										provide a company or project team the ability
+										to send out announcements/goals and to also plan
+										out their schedule with the rest of the team able to visualize
 									</li>
 									<li>
 										Designed with HTML5, CSS3, Bootstrap,
-										Webpack, Wordpress, and ReactJS.
+										Webpack, MongoDB, Date-FNS and ReactJS.
 									</li>
 								</ul>
 							</div>
@@ -140,14 +141,14 @@ export default class Projects extends React.Component {
 										cursor: "pointer"
 									}}
 									onClick={() => {
-										var modalBG = document.getElementById(
+										var modalBackground = document.getElementById(
 											"gallery-card"
 										);
-										var marineModal = document.getElementById(
-											"vmarine"
+										var hubModal = document.getElementById(
+											"hub"
 										);
-										modalBG.style.display = "none";
-										marineModal.style.display = "none";
+										modalBackground.style.display = "none";
+										hubModal.style.display = "none";
 									}}>
 									&#10005;
 								</p>
