@@ -1,7 +1,7 @@
 import React from "react";
 import homepage from "../img/homepage.png";
 import fitplay from "../img/fitplay.png";
-import todo from "../img/todolist.png";
+import infodose from "../img/infodose.png";
 import PropTypes from "prop-types";
 
 export default class Projects extends React.Component {
@@ -64,7 +64,7 @@ export default class Projects extends React.Component {
 													"gallery-card"
 												);
 												var fitplayModal = document.getElementById(
-													"agualuz"
+													"fitplay"
 												);
 												modalBG.style.display = "block";
 												fitplayModal.style.display =
@@ -82,21 +82,21 @@ export default class Projects extends React.Component {
 								}>
 								<div className="overlay">
 									<div className="text">
-										<h2>To Do List</h2>
+										<h2>InfODose</h2>
 									</div>
 									<div>
 										<button
-											id="todo-button"
+											id="infodose-button"
 											className="project-button"
 											onClick={() => {
 												var modalBG = document.getElementById(
 													"gallery-card"
 												);
-												var todoModal = document.getElementById(
-													"todolist"
+												var infodoseModal = document.getElementById(
+													"infodose"
 												);
 												modalBG.style.display = "block";
-												todoModal.style.display =
+												infodoseModal.style.display =
 													"block";
 											}}>
 											Learn More
@@ -124,7 +124,7 @@ export default class Projects extends React.Component {
 									</li>
 									<li>
 										Designed with HTML5, CSS3, Bootstrap,
-										Webpack, MongoDB, Date-FNS and ReactJS.
+										Webpack, MongoDB, Date-FNS, Passport and ReactJS.
 									</li>
 								</ul>
 							</div>
@@ -205,25 +205,27 @@ export default class Projects extends React.Component {
 						</div>
 					</div>
 
-					<div id="todolist" className="modal-card">
+					<div id="infodose" className="modal-card">
 						<div className="visual">
-							<img src={todo} alt=""/>
+							<img src={infodose} alt=""/>
 						</div>
 						<div className="modal-info">
-							<h2>To-Do List</h2>
+							<h2>InfODose</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
-										A to-do list to keep track of goals.
+										Prototype website that provides information
+										on the current opioid crisis in the United States.
 									</li>
 									<li>
-										Developed with HTML5, CSS3, Bootstrap,
-										Webpack, and ReactJS.
+										Developed with HTML5, CSS3, Bootstrap, Express,
+										MySQL, handlebars and passport
 									</li>
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<a href="./todoList/index.html" target="_blank">
+								<a href="https://lit-crag-01772.herokuapp.com/" 
+								target="_blank">
 									<h3>View live demo</h3>
 								</a>
 								<p
@@ -238,11 +240,11 @@ export default class Projects extends React.Component {
 										var modalBG = document.getElementById(
 											"gallery-card"
 										);
-										var todoModal = document.getElementById(
-											"todolist"
+										var infodoseModal = document.getElementById(
+											"infodose"
 										);
 										modalBG.style.display = "none";
-										todoModal.style.display = "none";
+										infodoseModal.style.display = "none";
 									}}>
 									&#10005;
 								</p>
