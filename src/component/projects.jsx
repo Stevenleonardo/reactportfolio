@@ -28,17 +28,17 @@ export default class Projects extends React.Component {
 									</div>
 									<div>
 										<button
-											id="vmarine-button"
+											id="hub-button"
 											className="project-button"
 											onClick={() => {
 												var modalBG = document.getElementById(
 													"gallery-card"
 												);
-												var marineModal = document.getElementById(
-													"vmarine"
+												var hubModal = document.getElementById(
+													"hub"
 												);
 												modalBG.style.display = "block";
-												marineModal.style.display =
+												hubModal.style.display =
 													"block";
 											}}>
 											Learn More
@@ -131,7 +131,7 @@ export default class Projects extends React.Component {
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<h4>Comming Soon!</h4>
+								<h4>More in store..</h4>
 								<p
 									className="close-icon"
 									style={{
