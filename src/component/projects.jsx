@@ -1,6 +1,6 @@
 import React from "react";
 import homepage from "../img/homepage.png";
-import aguaDeLuz from "../img/aguaDeLuz.png";
+import fitplay from "../img/fitplay.png";
 import todo from "../img/todolist.png";
 import PropTypes from "prop-types";
 
@@ -53,21 +53,21 @@ export default class Projects extends React.Component {
 								}>
 								<div className="overlay">
 									<div className="text">
-										<h2>Aguas De Luz</h2>
+										<h2>FitPlay</h2>
 									</div>
 									<div>
 										<button
-											id="agua-button"
+											id="fitplay-button"
 											className="project-button"
 											onClick={() => {
 												var modalBG = document.getElementById(
 													"gallery-card"
 												);
-												var aguaModal = document.getElementById(
+												var fitplayModal = document.getElementById(
 													"agualuz"
 												);
 												modalBG.style.display = "block";
-												aguaModal.style.display =
+												fitplayModal.style.display =
 													"block";
 											}}>
 											Learn More
@@ -107,8 +107,6 @@ export default class Projects extends React.Component {
 						</div>
 					</div>
 				</div>
-
-				{/*hidden modals*/}
 				<div id="gallery-card">
 					<div id="hub" className="modal-card">
 						<div className="visual">
@@ -131,7 +129,11 @@ export default class Projects extends React.Component {
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<h4>More in store..</h4>
+							<a
+									href="https://gentle-sea-35926.herokuapp.com/"
+									target="_blank">
+									<h3>View live demo</h3>
+								</a>
 								<p
 									className="close-icon"
 									style={{
@@ -156,32 +158,29 @@ export default class Projects extends React.Component {
 						</div>
 					</div>
 
-					<div id="agualuz" className="modal-card">
+					<div id="fitplay" className="modal-card">
 						<div className="visual">
-							<img src={aguaDeLuz} alt=""/>
+							<img src={fitplay} alt=""/>
 						</div>
 						<div className="modal-info">
-							<h2>Agua De Luz</h2>
+							<h2>FitPlay</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
 										Prototype website to promote health
-										natural-made products to increase brand
-										and online presence.
+										by providing information on the different types
+										of exercises but also to have chosen a music playlist
+										for specific workouts
+
 									</li>
 									<li>
 										Developed with HTML5, CSS3, Bootstrap,
-										Webpack, Parallax Effect,
-										SmoothScrolling(UI), and VanillaJS.
+										Bulma and Javascript
 									</li>
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<a
-									href="./AguaDeLuz/index.html"
-									target="_blank">
-									<h3>View live demo</h3>
-								</a>
+							<h4>More in store</h4>
 								<p
 									className="close-icon"
 									style={{
@@ -194,11 +193,11 @@ export default class Projects extends React.Component {
 										var modalBG = document.getElementById(
 											"gallery-card"
 										);
-										var aguaModal = document.getElementById(
-											"agualuz"
+										var fitplayModal = document.getElementById(
+											"fitplay"
 										);
 										modalBG.style.display = "none";
-										aguaModal.style.display = "none";
+										fitplayModal.style.display = "none";
 									}}>
 									&#10005;
 								</p>
