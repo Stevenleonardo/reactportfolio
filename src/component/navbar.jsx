@@ -58,7 +58,7 @@ class Navbar extends React.Component {
 					id="navbar"
 					className="navbar navbar-expand-lg navbar-light bg-light">
 					<div className="container">
-						<a
+					<a href
 							className="home-style navbar-brand"
 							onClick={() => {
 								window.scrollTo({
@@ -82,21 +82,21 @@ class Navbar extends React.Component {
 							className="collapse navbar-collapse"
 							id="navbarNavAltMarkup">
 							<div className="navbar-nav">
-								<a
+								<a href
 									onClick={() => {
 										this.scrolling(this.about);
 									}}
 									className="btn-style nav-item nav-link">
 									About
 								</a>
-								<a
+								<a href
 									onClick={() => {
 										this.scrolling(this.projects);
 									}}
 									className="btn-style nav-item nav-link">
 									Projects
 								</a>
-								<a
+								<a href
 									onClick={() => {
 										this.scrolling(this.contact);
 									}}
