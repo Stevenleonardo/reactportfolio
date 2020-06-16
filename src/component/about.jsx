@@ -59,9 +59,16 @@ export default class About extends React.Component {
 							}}
 						/>
 						<p className={"mytext pt-3 " + this.props.fadeIn}>
-						 I am a full stack developer that trained
-                    and learned at UCF. I have created projects that derail from the front end development 
-                    such as React and CSS3 to the backend with MongoDB
+						 My name is Steven. I am a full stack developer. Welcome 
+						 to my portfolio page. I am a UCF boot camp graduate and also
+						 a UCF graduate with a BA. My interest in the field goes beyond
+						 just accomplishing tasks but also improving myself day by day.
+						 I am a aggressive problem solver
+						 with an eagerness to tackle problems head on. I am familiar
+						 and very capable with the technologies went over in the boot
+						 camp and also in self study which include React, HTML5, CSS3,
+						 MongoDB, MySQL, MongoDB, Mongoose, Passport, jQuery, Node.JS and
+						 Express.JS
                     
 						</p>
 					</div>
