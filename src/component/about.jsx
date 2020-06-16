@@ -3,7 +3,7 @@ import layers from "../img/layers.png";
 import cogwheel from "../img/cogwheel.png";
 import pen from "../img/pen.png";
 import browser from "../img/browser.png";
-import myImage from "../img/profile.png";
+import myImage from "../img/profile.JPG";
 import PropTypes from "prop-types";
 
 export default class About extends React.Component {
@@ -54,7 +54,7 @@ export default class About extends React.Component {
 							alt=""
 							style={{
 								borderRadius: 50 + "%",
-								height: 250 + "px",
+								height: 350 + "px",
 								width: 250 + "px"
 							}}
 						/>
