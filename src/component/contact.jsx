@@ -15,7 +15,7 @@ export default class Contact extends React.Component {
 					<div>
 						<div className="row">
 							<div className="col-12 col-sm-12 col-md-6 mx-auto">
-								<h2>Steven Leonardo</h2>
+								
 							</div>
 						</div>
 					</div>
