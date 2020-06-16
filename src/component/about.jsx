@@ -3,7 +3,7 @@ import layers from "../img/layers.png";
 import cogwheel from "../img/cogwheel.png";
 import pen from "../img/pen.png";
 import browser from "../img/browser.png";
-//import myImage from "../img/myImage.png";
+import myImage from "../img/profile.png";
 import PropTypes from "prop-types";
 
 export default class About extends React.Component {
@@ -50,7 +50,7 @@ export default class About extends React.Component {
 					<div className="col-12 col-lg-6 hidden">
 						<img
 							className={"img-fluid " + this.props.fadeIn}
-							//src={myImage}
+							src={myImage}
 							alt=""
 							style={{
 								borderRadius: 50 + "%",
