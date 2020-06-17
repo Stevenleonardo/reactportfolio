@@ -1,22 +1,16 @@
 # React Portfolio
 
-<img src= "./client/public/appImage.png" width="350" height="200">
+<img src= "./src/img/app.png" width="350" height="200">
 
 
 
 
 Project Title
-This is a planner application where the team lead/manager and the users can mutally benefit from.
-This application is used to organize team planning and can be used from a professional setting to just
-a at home start up with friends. The application will have to two different users that will have access
-to different dashboards given the position. In the dashboard the users will be able to see what the admin
-has listed as announcements/goals for the day. The next page is the planner page where user will see a dynamic
-calender and a planner where the user will be able to create tasks they need to do. This project is a
-full stack MERN project and runs on react front end and MongoDB to save in the back end. This project also
-has full authentication using passport.
+This is a react portfolio application where displays information about me, project work and the ability to design and show the use of REACT. Through the use of animate.css I was able to not only move the css
+but also how the information is presented when scrolling down.
 
 Getting Started
-You can get a verison of this product up and running through heroku and can see the juicy backend code through the github
+You can get a verison of this product up and running through heroku and can see the code through the github
 page.
 
 Prerequisites
@@ -32,36 +26,31 @@ Deployment
 Heroku
 
 Try Me Live
-<a href="https://gentle-sea-35926.herokuapp.com/">https://gentle-sea-35926.herokuapp.com/</a>
-Login as admin= RWS
-Password= test
+<a href="https://ancient-sands-46959.herokuapp.com/">https://ancient-sands-46959.herokuapp.com/</a>
+
 
 Built With
 React
-Mongoose
-Date-fns
+Animate.css
+Wow.js
+Bootstrap
 
 Contributing
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
 Authors
-Steven Leonardo - Front End
-Wadih Ojeil- Project lead
-Rogelio Martinez- Back End
+Steven Leonardo
 
 License
 This project is licensed under the MIT License
-Full Stack Project starter with basic components routes and authentication. The project is in MVC format that includes the User model and controller. The first routes in the client are protected by the passport authentication using the local strategy. 
+Full Stack Project starter with basic components routes and authentication. The project is in MVC format
 
 ## Purpose and Inspiration
 You can fork and run this to quickly have an MVC project up and running, then simply add the controllers models and components that your project needs. I wanted to have a place to start with no other models than the User model. This is currently at the point where you can:
 
 ## MVC
-This project is structured in Full Stack Javascript with Mongoose Models REACT Views and Controllers. The heavy lifting for the authentication is done in src/utils/Auth.js.
+This project is structured in Full Stack Javascript with REACT Views and Controllers.
 
-- Register a new user
-- Login with an existing user
-- Log Out
 
 ## Tech Stack
 + [ANIMATE.CSS]
